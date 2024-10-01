@@ -128,14 +128,39 @@ header{
 
 .rettangoli{
     margin-left: 20px;
-    border-radius: 10px;
-    font-size: 10px
-    height: 35px;
-    width: 80px;
     color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
 }
+
+
 
 .ciano{
     background-color: blue;
+}
+
+.viola{
+    background-color: purple;
+}
+
+.verde{
+    background-color: green;
+}
+
+.arancio{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.lime{
+    background-color: lime;
 }
 /*footer*/
