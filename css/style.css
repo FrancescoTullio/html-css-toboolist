@@ -5,6 +5,10 @@
     margin: 0;
     }
 
+    h2{
+        display: inline-block;
+    }
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -29,10 +33,9 @@ header{
 }
 
 .font{
-    font-size: 50px;
-    font-weight: 1000;
-    vertical-align: 100;
-}
+    vertical-align: middle;
+    display: inline-block;
+    }
 
 
 
@@ -75,4 +78,39 @@ header{
     border: 1px solid grey;
 }
 
+
+.second-setting-main{
+    margin-top: 3px;
+    background-color: white;
+}
+
+.setting-list{
+    margin-top: 3px;
+    margin-left: 50px;
+    /*border: solid 2px black;*/
+    padding-top: 25px;
+}
+
+.distanziatore{
+    margin-top: 10px;
+}
+
+.list{
+    list-style: none;
+}
+
+
+.setting-riga{
+    line-height: 30px;
+}
+
+.green-circle{
+    border: 1px green solid;
+    color: green;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: pink;
+}
 /*footer*/
