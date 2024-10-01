@@ -46,10 +46,33 @@ header{
     background-color: white;
     margin-left: 200px;
     margin-right: 200px;
-    height: 60px;
+    }
+
+.section-button{
+    height: 70px;
     margin-top: 50px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 
+.button-structure{
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 25px;
+    width: 80px;
+
+}
+
+.first-button{
+    background-color: lightskyblue;
+    color: white;
+    border-color: transparent;
+    margin-left: 50px;
+}
+
+.second-button{
+    background-color: white;
+    color: gray;
+    border: 1px solid grey;
+}
 
 /*footer*/
