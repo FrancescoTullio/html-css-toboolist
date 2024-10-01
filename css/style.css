@@ -24,12 +24,14 @@ body{
 header{
     background-color: white;
     height: 100px;
+    
 }
 
 .logo{
     margin-top: 10px;
     width: 80px;
     margin-left: 30px;
+    vertical-align: middle;
 }
 
 .font{
@@ -104,13 +106,22 @@ header{
     line-height: 30px;
 }
 
-.green-circle{
-    border: 1px green solid;
-    color: green;
-    height: 40px;
-    width: 40px;
+.circle{
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     display: inline-block;
-    background-color: pink;
+    text-align: center;
+    line-height: 20px;
+}
+
+.green{
+    border: 1px green solid;
+    color: green;
+}
+
+.red{
+    border: 1px red solid;
+    color: red;
 }
 /*footer*/
